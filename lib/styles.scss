@@ -1,5 +1,14 @@
 @import "variables.scss";
-@import "mixins.scss"; 
+@import "mixins.scss";
 @import "debug.scss";
 @import "mobile.scss";
 
+body {
+  text-align: center;
+}
+
+.comments-display-container {
+  border: 1px solid black;
+  margin: 20px auto;
+  max-width: 50vw;
+}
